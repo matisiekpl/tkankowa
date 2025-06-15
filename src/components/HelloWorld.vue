@@ -228,7 +228,7 @@ export default {
       this.answer_j_selected = false;
       this.checking = false;
       if (this.i > this.questions.length - 1) {
-        if (this.answered_correctly < 50) {
+        if (this.answered_correctly < 18) {
           alert('Ojoj! Chyba będzie poprawka...');
         } else {
           alert('Czas na piwo!');
